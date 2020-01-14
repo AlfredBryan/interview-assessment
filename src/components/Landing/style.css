@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css?family=Gelasio&display=swap");
+
+.container_main {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.container_main img {
+  width: 100%;
+  height: 25em;
+}
+
+.centered {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Gelasio", serif;
+  font-weight: 100;
+}
+
+.centered_btn {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0.7em;
+  border-radius: 4px;
+  font-weight: 900;
+}
+
+.training_section {
+  margin-top: 5em;
+  display: flex;
+}
+
+.training_text {
+  text-align: center;
+  width: 25em;
+  margin-left: 10em;
+}
+
+.training_img img {
+  width: 25em;
+}
+
+.training_img {
+  margin-left: 20em;
+}
+
+.training_text h3 {
+  font-family: "Gelasio", serif;
+}
+
+.training_text button {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 0.5em;
+  font-weight: 700;
+}
+
+.learn {
+  margin-top: 5em;
+}
+
+.learn h3 {
+  text-align: center;
+  font-family: "Gelasio", serif;
+}
+
+.learn_items {
+  margin-top: 3em;
+  background-color: rgb(204, 202, 202);
+  height: 13em;
+  display: flex;
+  border-radius: 4px;
+}
+
+.item_one {
+  margin-top: 5em;
+  margin-left: 9em;
+  font-size: 13px;
+}
+
+.item_two {
+  margin-top: 5em;
+  margin-left: 8em;
+  font-size: 13px;
+}
+
+.item_three {
+  margin-top: 5em;
+  margin-left: 8em;
+  font-size: 13px;
+}
+
+.item_four {
+  margin-top: 5em;
+  margin-left: 8em;
+  font-size: 13px;
+}
+.icon {
+  font-weight: 900;
+  padding-right: 0.6em;
+}
+.facilitators {
+  margin-top: 5em;
+}
+.facilitators h3 {
+  text-align: center;
+  font-family: "Gelasio", serif;
+}
+.facilitator {
+  display: flex;
+  margin-left: 1em;
+  margin-top: 5em;
+}
+.facilitator img {
+  height: 17em;
+  width: 16em;
+}
+.vl {
+  border-left: 2px solid black;
+  margin-left: 5em;
+  height: 180px;
+  width: 25em;
+}
+.vl p {
+  margin-left: 1em;
+}
+.facilitator_text h5 {
+  margin-left: 3em;
+  margin-bottom: 1em;
+  font-family: "Gelasio", serif;
+  font-weight: 700;
+}
+.facilitator_right h5 {
+  margin-left: 13em;
+  margin-bottom: 1em;
+  font-family: "Gelasio", serif;
+  font-weight: 700;
+}
+.facilitator_text_right {
+  display: flex;
+  margin-left: 40em;
+  margin-top: 5em;
+}
+.facilitator_text_right img {
+  height: 17em;
+  width: 16em;
+}
+.vl_two {
+  border-right: 2px solid black;
+  margin-right: 5em;
+  height: 180px;
+  width: 25em;
+}
