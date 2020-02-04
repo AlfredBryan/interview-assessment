@@ -1,161 +1,264 @@
 import React, { Component } from "react";
+
 import "./style.css";
+import CustomNavbar from "../Navbar/CustomNavbar";
+import firstsvg from "../../Images/landingsvg.svg";
 
 export class Landing extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="container_main">
-          <img src={require("../../images/beach.jpg")} alt="Snow" />
-          <div className="centered">
-            <h2>The Making of a Legal Entrepreneur</h2>
-          </div>
-          <button className="centered_btn">REGISTER</button>
-        </div>
-        <div className="training_section">
-          <div className="training_text">
-            <h3>About Training</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            </p>
-            <p>
-              Sed felis eget velit aliquet sagittis id consectetur purus. Eu
-              facilisis sed odio morbi quis commodo odio aenean. Suscipit
-              adipiscing bibendum est ultricies integer. Diam donec adipiscing
-            </p>
-            <button>REGISTER NOW</button>
-          </div>
-          <div className="training_img">
-            <img src={require("../../images/office.jpg")} alt="" />
+        <CustomNavbar />
+        <div className="main_landing container">
+          <div className="row section_one">
+            <div className="col-md-6 landing_text">
+              <h1>A fresh approach to customer engagement</h1>
+              <p>
+                Delight your customers, every step of the way.
+                <br /> You’ll know what we mean when you try our products.
+              </p>
+              <button className="first_btn">GET STARTED</button>
+            </div>
+            <div className="col-md-6 landing_svg">
+              <img className="first_svg" src={firstsvg} alt="" />
+            </div>
           </div>
         </div>
-        <div className="learn">
-          <h3>What you'll Learn</h3>
-          <div className="container-fluid">
-            <div className="learn_items">
-              <div className="item_one">
-                <h4>
-                  <span className="icon">❊</span> Inbound Marketing
-                </h4>
-                <h4>
-                  <span className="icon">❊</span> Digital Crime and the Law
-                </h4>
-                <h4>
-                  <span className="icon">❊</span> Lorem ipsum
-                </h4>
+        <div className="section_two">
+          <h2>Refreshing business software that your teams will love</h2>
+          <p>
+            All of our products are ready to go, easy to use and offer great
+            value to any kind of business.
+          </p>
+          <div className="container">
+            <div className="row product_cards">
+              <div className="col-xs-12 col-sm-6 col-md-4 card_design">
+                <div className="card product_card">
+                  <div className="tag">
+                    <span>CUSTOMER SUPPORT SOFTWARE</span>
+                  </div>
+                  <h4>freshdesk</h4>
+                  <p>
+                    Empower your support team to work together and resolve
+                    customer issues faster
+                  </p>
+                  <button>START TRIAL</button>
+                </div>
               </div>
-              <div className="item_two">
-                <h4>
-                  <span className="icon">❊</span> Lorem ipsum
-                </h4>
-                <h4>
-                  <span className="icon">❊</span> Lorem ipsum
-                </h4>
-                <h4>
-                  <span className="icon">❊</span> Lorem ipsum
-                </h4>
+              <div className="col-xs-12 col-sm-6 col-md-4 card_design">
+                <div className="card product_card">
+                  <div className="tag">
+                    <span>CUSTOMER SUPPORT SOFTWARE</span>
+                  </div>
+                  <h4>freshchat</h4>
+                  <p>
+                    Empower your support team to work together and resolve
+                    customer issues faster
+                  </p>
+                  <button>START TRIAL</button>
+                </div>
               </div>
-              <div className="item_three">
-                <h4>
-                  <span className="icon">❊</span> Lorem ipsum
-                </h4>
-                <h4>
-                  <span className="icon">❊</span> Lorem ipsum
-                </h4>
-                <h4>
-                  <span className="icon">❊</span> Lorem ipsum
-                </h4>
-              </div>
-              <div className="item_four">
-                <h4>
-                  <span className="icon">❊</span> Lorem ipsum
-                </h4>
-                <h4>
-                  <span className="icon">❊</span> Lorem ipsum
-                </h4>
-                <h4>
-                  <span className="icon">❊</span> Lorem ipsum
-                </h4>
+              <div className="col-xs-12 col-sm-6 col-md-4 card_design">
+                <div className="card product_card">
+                  <div className="tag">
+                    <span>CUSTOMER SUPPORT SOFTWARE</span>
+                  </div>
+                  <h4>freshsales</h4>
+                  <p>
+                    Empower your support team to work together and resolve
+                    customer issues faster
+                  </p>
+                  <button>START TRIAL</button>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div className="facilitators">
-          <h3>Facilitators</h3>
-        </div>
-        <div className="facilitator">
-          <img src={require("../../images/astro.jpg")} alt="" />
-
-          <div className="facilitator_text">
-            <h5>Prince joel Esq.</h5>
-            <div className="vl">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore
-              </p>
+          <div className="container">
+            <div className="row product_cards">
+              <div className="col-xs-12 col-sm-6 col-md-4 card_design">
+                <div className="card product_card">
+                  <div className="tag">
+                    <span>CUSTOMER SUPPORT SOFTWARE</span>
+                  </div>
+                  <h4>freshdesk</h4>
+                  <p>
+                    Empower your support team to work together and resolve
+                    customer issues faster
+                  </p>
+                  <button>START TRIAL</button>
+                </div>
+              </div>
+              <div className="col-xs-12 col-sm-6 col-md-4 card_design">
+                <div className="card product_card">
+                  <div className="tag">
+                    <span>CUSTOMER SUPPORT SOFTWARE</span>
+                  </div>
+                  <h4>freshchat</h4>
+                  <p>
+                    Empower your support team to work together and resolve
+                    customer issues faster
+                  </p>
+                  <button>START TRIAL</button>
+                </div>
+              </div>
+              <div className="col-xs-12 col-sm-6 col-md-4 card_design">
+                <div className="card product_card">
+                  <div className="tag">
+                    <span>CUSTOMER SUPPORT SOFTWARE</span>
+                  </div>
+                  <h4>freshsales</h4>
+                  <p>
+                    Empower your support team to work together and resolve
+                    customer issues faster
+                  </p>
+                  <button>START TRIAL</button>
+                </div>
+              </div>
             </div>
           </div>
+          <button className="view_products">VIEW ALL PRODUCTS</button>
         </div>
-        <div className="facilitator_text_right">
-          <div className="facilitator_right">
-            <h5>Christopher E. moses</h5>
-
-            <div className="vl_two">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore
-              </p>
-            </div>
-          </div>
-          <img src={require("../../images/officeworker.jpeg")} alt="" />
+        <div className="section_three">
+          <h2 className="text-center">
+            <strong>The Freshworks Promise</strong>
+          </h2>
+          <p className="text-center">
+            <strong>
+              There are hundreds of vendors you deal with, who may promise you a
+              thousand things.
+              <br /> Wondering how we’re different?
+            </strong>
+          </p>
+          <button className="read_more_btn">READ MORE</button>
         </div>
-        <div className="facilitator">
-          <img src={require("../../images/newoffice.png")} alt="" />
-
-          <div className="facilitator_text">
-            <h5>Ubong Patrick</h5>
-            <div className="vl">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore
-              </p>
+        <div className="section_four">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-ride="carousel"
+          >
+            <ol class="carousel-indicators">
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="1"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="2"
+              ></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div className="card slide_card">
+                  <div className="header_card">
+                    <span className="quote1">
+                      <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    </span>
+                    <span>Name of User</span>
+                    <span className="quote2">
+                      <i class="fa fa-quote-right" aria-hidden="true"></i>
+                    </span>
+                  </div>
+                  <p>
+                    “One of my favorite things about Freshdesk is that it just
+                    works - you don't have to be trained in using the software.
+                    Everything is very intuitive.”
+                  </p>
+                  <hr />
+                  <div className="d-flex">
+                    <div className="user_img"></div>
+                    <div className="user_section_text">
+                      <h4>Agnes Ugwu</h4>
+                      <p>Classroom Technology Manager</p>
+                      <p>Lesley University</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div className="card slide_card">
+                  <div className="header_card">
+                    <span className="quote1">
+                      <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    </span>
+                    <span>Name of User</span>
+                    <span className="quote2">
+                      <i class="fa fa-quote-right" aria-hidden="true"></i>
+                    </span>
+                  </div>
+                  <p>
+                    “One of my favorite things about Freshdesk is that it just
+                    works - you don't have to be trained in using the software.
+                    Everything is very intuitive.”
+                  </p>
+                  <hr />
+                  <div className="d-flex">
+                    <div className="user_img"></div>
+                    <div className="user_section_text">
+                      <h4>Emeka Ofor</h4>
+                      <p>Classroom Technology Manager</p>
+                      <p>Lesley University</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div className="card slide_card">
+                  <div className="header_card">
+                    <span className="quote1">
+                      <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    </span>
+                    <span>Name of User</span>
+                    <span className="quote2">
+                      <i class="fa fa-quote-right" aria-hidden="true"></i>
+                    </span>
+                  </div>
+                  <p>
+                    “One of my favorite things about Freshdesk is that it just
+                    works - you don't have to be trained in using the software.
+                    Everything is very intuitive.”
+                  </p>
+                  <hr />
+                  <div className="d-flex">
+                    <div className="user_img"></div>
+                    <div className="user_section_text">
+                      <h4>Douglas Anderson</h4>
+                      <p>Classroom Technology Manager</p>
+                      <p>Lesley University</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div className="facilitator_text_right">
-          <div className="facilitator_right">
-            <h5>Tope Jay</h5>
+            <a
+              class="carousel-control-prev"
+              href="#carouselExampleIndicators"
+              role="button"
+              data-slide="prev"
+            >
+              <div className="slide_btn">
+                <i class="fa fa-long-arrow-left"></i>
+              </div>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carouselExampleIndicators"
+              role="button"
+              data-slide="next"
+            >
+              <div className="slide_btn">
+                <i class="fa fa-long-arrow-right"></i>
+              </div>
 
-            <div className="vl_two">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore
-              </p>
-            </div>
+              <span class="sr-only">Next</span>
+            </a>
           </div>
-          <img src={require("../../images/lastoffice.jpeg")} alt="" />
         </div>
       </React.Fragment>
     );
