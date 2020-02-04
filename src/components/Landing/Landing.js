@@ -132,6 +132,9 @@ export class Landing extends Component {
           <button className="read_more_btn">READ MORE</button>
         </div>
         <div className="section_four">
+          <h2 className="text-center">
+            Here’s what our customers have been saying about us
+          </h2>
           <div
             id="carouselExampleIndicators"
             class="carousel slide"
@@ -260,6 +263,28 @@ export class Landing extends Component {
             </a>
           </div>
         </div>
+        <div className="section_five">
+          <h2 className="text-center">Inside Freshworks</h2>
+          <p className="text-center">
+            Get a sneak peek into some of the amazing things that happen behind
+            the scenes at Freshworks.
+          </p>
+          <div className="container">
+            <div className="row">
+              <div className="col-xs-12 col-sm-6 col-md-6">
+                <div className="card inside_card">
+                  <div className="inside_card_img"></div>
+                </div>
+              </div>
+              <div className="col-xs-12 col-sm-6 col-md-6">
+                <div className="card inside_card">
+                  <div className="inside_card_img"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="footer"></div>
       </React.Fragment>
     );
   }

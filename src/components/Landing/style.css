@@ -255,6 +255,33 @@
 .user_section_text p {
   text-align: left;
 }
+.section_four h2 {
+  color: #4d4d4d;
+  margin-bottom: 2em;
+}
+.section_five {
+  padding-top: 8em;
+}
+.section_five h2 {
+  color: #4d4d4d;
+}
+.section_five p {
+  color: #666;
+}
+.inside_card {
+  border-radius: 5px;
+  background-color: #fff;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 25rem;
+  min-height: 330px;
+}
+.inside_card_img {
+  height: 10em;
+  background: grey;
+  width: 100% !important;
+}
 @media only screen and (max-width: 400px) {
   .landing_text {
     text-align: center;
@@ -333,5 +360,8 @@
   }
   .quote2 {
     margin-left: 3em;
+  }
+  .carousel-indicators {
+    top: 95%;
   }
 }
